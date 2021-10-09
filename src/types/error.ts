@@ -1,8 +1,4 @@
-interface ErrorMessage {
-  message: string
-}
-
-export const isErrorMessage = (data: unknown): data is ErrorMessage => {
-  const errorObj = data as ErrorMessage
+export const isErrorType = (data: unknown): data is Error => {
+  const errorObj = data as Error
   return errorObj?.message !== undefined
 }
