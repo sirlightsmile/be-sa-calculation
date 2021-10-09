@@ -1,10 +1,7 @@
-# boilerplate-nestjs
+# Calculate SA test
 
-Boilerplat from nest js
+# Commands
 
-NOTE: DTO, better keep all dtos in dto folders.
+`yarn start` : to run development environment
 
-git clone https://github.com/JohnPollockMIC/old-repo.git
-cd reponame
-git remote add new-repo https://github.com/JohnPollockMIC/new-repo.git
-git push new-repo master
+//TODO: add some later
